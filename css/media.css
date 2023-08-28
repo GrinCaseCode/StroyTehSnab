@@ -4,7 +4,7 @@
 		font-size: 14px;
 	}
 	.link-page,
-	.header {
+	.header { 
 		font-size: 13px;
 	}
 	.menu a {
@@ -168,6 +168,121 @@
 		width: 230px;
 		padding: 15px;
 	}
+	.item-treaty__icon {
+		width: 46px;
+		height: 46px;
+		padding: 10px;
+		margin-right: 20px;
+	}
+	.item-treaty__title {
+		font-size: 16px;
+	}
+	.item-treaty__head {
+		margin-bottom: 17px;
+	}
+	.item-treaty {
+		padding: 17px 19px;
+		padding-bottom: 30px;
+	}
+	.section-guarantee .title-section {
+		padding-bottom: 21px;
+	}
+	.section-guarantee {
+		padding-top: 0;
+	}
+	.list-block li {
+		margin-bottom: 37px;
+		padding-left: 40px;
+	}
+	.list-block li::before {
+		width: 23px;
+		height: 17px;
+	}
+	.list-block li .btn-main {
+		font-size: 16px;
+		padding: 0 22px;
+		height: 57px;
+		margin-left: 3px;
+	}
+	.block-guarantee {
+		padding: 30px;
+		background-size: 700px auto;
+	}
+	.section-payment .title-section {
+		padding-bottom: 30px;
+	}
+	.section-payment {
+		padding-top: 35px;
+	}
+	.item-payment::before {
+		left: 17px;
+	}
+	.item-payment {
+		height: 190px;
+		padding-left: 50px;
+		padding-right: 20px;
+	}
+	.payment-main {
+		height: 405px;
+		font-size: 16px;
+		padding: 0 28px;
+	}
+	.quick-order {
+		padding: 60px 70px;
+		padding-right: 280px;
+	}
+	.quick-order .title-section {
+		padding-bottom: 60px;
+		max-width: 735px;
+	}
+	.quick-order .btn-main {
+		min-width: 220px;
+	}
+	.section-treaty .title-section {
+		padding-bottom: 27px;
+	}
+	.line-form .item-form {
+		width: 258px;
+		margin-right: -14px;
+	}
+	.line-form .btn-main {
+		width: 250px;
+	}
+	.billbord_b2b .line-form {
+		margin-top: 70px;
+	}
+	.billbord_b2b .title-billbord {
+		font-size: 37px;
+		max-width: 644px;
+	}
+	.page-delivery .title-section {
+		padding-bottom: 19px;
+	}
+	.form-page .title-section {
+		padding-bottom: 25px;
+	}
+	.map-delivery img {
+		max-width: 570px;
+	}
+	.block-delivery .title-small {
+		max-width: 492px;
+	}
+	.block-delivery {
+		padding: 20px;
+		background-size: 635px auto;
+	}
+	.form-page {
+		padding: 44px 65px;
+		padding-bottom: 55px;
+	}
+	.page-delivery .form-page {
+		margin-top: 40px;
+	}
+	.item-form textarea, 
+	.item-form input {
+		padding: 0 20px;
+		font-size: 15px;
+	}
 }
 
 /* Large Devices, Wide Screens */
@@ -279,6 +394,38 @@
 	}
 	.wrapper {
 		padding-top: 125px;
+	}
+	.billbord_b2b .title-billbord {
+		font-size: 30px;
+		max-width: 525px;
+	}
+	.block-guarantee {
+		background-size: 600px auto;
+	}
+	.quick-order {
+		padding: 50px 40px;
+		padding-right: 100px;
+	}
+	.quick-order .title-section {
+		padding-bottom: 37px;
+		max-width: 698px;
+	}
+	.section-quick-order {
+		padding-top: 20px;
+		padding-bottom: 40px;
+	}
+	.map-delivery img {
+		max-width: 430px;
+	}
+	.block-delivery {
+		background-size: 420px auto;
+	}
+	.form-page .btn-main {
+		min-width: initial;
+	}
+	.form-page {
+		padding: 30px 20px;
+		padding-bottom: 40px;
 	}
 }
 
@@ -531,6 +678,52 @@
 	.header__contacts .link-page {
 		margin-top: 7px;
 	}
+	.billbord_b2b .billbord-block {
+		min-height: 460px;
+	}
+	.block-guarantee {
+		background-image: none;
+	}
+	.list-block li {
+		margin-bottom: 25px;
+	}
+	.col-lg-6 + .col-lg-6 .list-block li:last-child {
+		margin-bottom: 0;
+	}
+	.payment-main {
+		height: 285px;
+		margin-bottom: 25px;
+	}
+	.quick-order .btn-main {
+		width: 100%;
+		min-width: initial;
+	}
+	.quick-order .checkbox {
+		margin-top: 0;
+		justify-content: center;
+	}
+	.quick-order {
+		padding: 50px;
+	}
+	.map-delivery img {
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	.block-delivery {
+		background-image: none;
+	}
+	.col_map {
+		order: 2;
+	}
+	.form-page .btn-main {
+		width: 100%;
+	}
+	.col-btn {
+		width: 100%;
+	}
+	.form-page {
+		padding: 35px 40px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -588,6 +781,39 @@
 	.slider-brands {
 		padding: 0;
 		padding-bottom: 30px;
+	}
+	.billbord_b2b .title-billbord {
+		font-size: 26px;
+		max-width: 445px;
+	}
+	.line-form .btn-main {
+		width: 205px;
+	}
+	.billbord_b2b .line-form {
+		margin-top: 45px;
+	}
+	.billbord_b2b .billbord-block {
+		min-height: 420px;
+	}
+	.section-treaty {
+		padding-top: 32px;
+	}
+	.list-block li::before {
+		width: 18px;
+		height: 13px;
+	}
+	.list-block li {
+		padding-left: 30px;
+	}
+	.quick-order {
+		padding: 40px 30px;
+	}
+	.page-delivery .form-page {
+		margin-top: 30px;
+	}
+	.page-delivery {
+		padding-top: 22px;
+		padding-bottom: 35px;
 	}
 }
 
@@ -650,6 +876,56 @@
 	}
 	.head-section {
 		margin-bottom: 24px;
+	}
+	.line-form .item-form {
+		width: 222px;
+	}
+	.line-form .btn-main {
+		width: 182px;
+	}
+	.billbord_b2b .line-form {
+		margin-top: 33px;
+	}
+	.section-treaty .title-section {
+		padding-bottom: 20px;
+	}
+	.block-guarantee {
+		padding: 25px 15px;
+	}
+	.block-guarantee .list-block li {
+		display: block;
+	}
+	.list-block li .btn-main {
+		margin-top: 10px;
+	}
+	.block-guarantee .list-block li br  {
+		display: block;
+	}
+	.payment-main {
+		padding: 60px 30px;
+		font-size: 14px;
+		height: auto;
+	}
+	.item-payment {
+		padding: 40px 30px;
+		padding-left: 50px;
+		height: auto;
+	}
+	.row_payments > div {
+		margin-bottom: 18px;
+	}
+	.quick-order {
+		padding: 30px 20px;
+	}
+	.line-form .item-form input {
+		height: 55px;
+		padding-left: 10px;
+	}
+	.form-page {
+		padding: 35px 23px;
+	}
+	.block-delivery .title-small p {
+		margin-bottom: 15px;
 	}
 }
 
