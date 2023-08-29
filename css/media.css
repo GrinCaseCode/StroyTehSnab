@@ -283,6 +283,49 @@
 		padding: 0 20px;
 		font-size: 15px;
 	}
+	.title-min {
+		font-size: 16px;
+	}
+	.page-about .title-min {
+		max-width: 545px;
+		padding-bottom: 32px;
+	}
+	.page-about .title-section {
+		padding-bottom: 26px;
+	}
+	.title-middle {
+		font-size: 26px;
+	}
+	.about-info .title-middle {
+		padding-bottom: 20px;
+	}
+	.about-info {
+		padding: 40px 45px;
+		padding-bottom: 42px;
+		padding-right: 57px;
+		margin-right: -24px;
+		margin-bottom: 37px;
+	}
+	.about-text {
+		padding: 35px 49px;
+		padding-bottom: 55px;
+	}
+	.item-sertificat {
+		height: 344px;
+	}
+	.form-special {
+		padding: 62px 75px;
+	}
+	.page-about .form-special {
+		margin-top: 43px;
+	}
+	.form-special .title-small {
+		max-width: 380px;
+	}
+	.form-special .btn-main {
+		padding: 0px 45px;
+		margin-left: 25px;
+	}
 }
 
 /* Large Devices, Wide Screens */
@@ -426,6 +469,52 @@
 	.form-page {
 		padding: 30px 20px;
 		padding-bottom: 40px;
+	}
+	.title-middle {
+		font-size: 23px;
+	}
+	.page-about .title-section {
+		padding-bottom: 11px;
+	}
+	.title-min {
+		font-size: 15px;
+	}
+	.page-about .title-min {
+		padding-bottom: 20px;
+	}
+	.about-info {
+		padding: 27px 25px;
+		padding-bottom: 42px;
+		padding-right: 10px;
+		margin-right: -16px;
+		margin-bottom: 28px;
+	}
+	.title-small {
+		font-size: 17px;
+	}
+	.title-section.title-section_sertificats {
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+	.item-sertificat {
+		height: 365px;
+	}
+	.form-special .btn-main {
+		padding: 0 40px;
+		margin-left: 0;
+		white-space: normal;
+	}
+	.form-special {
+		padding: 35px 35px;
+	}
+	.form-special .title-section {
+		padding-bottom: 30px;
+	}
+	.form-special .title-small {
+		max-width: 350px;
+	}
+	.page-about {
+		padding-bottom: 38px;
 	}
 }
 
@@ -724,6 +813,44 @@
 	.form-page {
 		padding: 35px 40px;
 	}
+	.about-info {
+		padding: 30px;
+		margin-right: 0;
+	}
+	.image-about {
+		margin-top: 20px;
+	}
+	.item-sertificat {
+		padding: 7px;
+		height: 305px;
+	}
+	.item-sertificat::before {
+		border-top: 56px solid #EA6229;
+		border-right: 27px solid transparent;
+	}
+	.item-sertificat::after {
+		border-bottom: 56px solid #4D5252;
+		border-left: 27px solid transparent;
+	}
+	.slider-sertificats .slick-slide {
+		padding: 0 7px;
+	}
+	.slider-sertificats {
+		margin: 0 -7px;
+		padding-bottom: 30px;
+	}
+	.title-section.title-section_sertificats {
+		padding-top: 24px;
+		padding-bottom: 17px;
+	}
+	.form-special .btn-main {
+		padding: 0 15px;
+		width: 100%;
+	}
+	.form-special .checkbox {
+		margin-top: 0;
+		justify-content: center;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -814,6 +941,19 @@
 	.page-delivery {
 		padding-top: 22px;
 		padding-bottom: 35px;
+	}
+	.title-middle {
+		font-size: 22px;
+	}
+	.about-text {
+		padding: 35px;
+	}
+	.page-about .form-special {
+		margin-top: 35px;
+	}
+	.item-sertificat {
+		max-width: 219px; 
+		margin: 0 auto;
 	}
 }
 
@@ -927,6 +1067,45 @@
 	.block-delivery .title-small p {
 		margin-bottom: 15px;
 	}
+	.about-info {
+		padding: 20px 15px;
+		margin-bottom: 20px;
+	}
+	.title-middle {
+		font-size: 17px;
+	}
+	.about-info .title-small {
+		font-size: 14px;
+	}
+	.image-about::before {
+		left: 10px;
+		top: -9px;
+		border-top: 57px solid #EA6229;
+		border-right: 28px solid transparent;
+	}
+	.image-about::after {
+		right: 10px;
+		bottom: -9px;
+		border-bottom: 57px solid #4D5252;
+		border-left: 28px solid transparent;
+	}
+	.about-text {
+		padding: 30px 20px;
+	}
+	.item-sertificat {
+		height: 225px;
+		max-width: 158px;
+		margin: 0 auto;
+	}
+	.form-special {
+		padding: 30px 20px;
+	}
+	.form-special .title-section {
+		padding-bottom: 19px;
+	}
+	.title-section.title-section_sertificats {
+		font-size: 21px;
+	} 
 }
 
 /* Custom, iPhone Retina */

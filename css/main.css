@@ -1004,11 +1004,13 @@ div.consultation-block__inputs {
 .line-form .item-form input {
 	height: 60px;
 }
+.form-special .checkbox label > span:before,
 .form-page .checkbox label > span:before,
 .quick-order .checkbox label > span:before,
 .billbord_b2b .checkbox label > span:before {
 	border-color: #fff;
 }
+.form-special .checkbox label > span:after,
 .form-page .checkbox label > span:after,
 .quick-order .checkbox label > span:after,
 .billbord_b2b .checkbox label > span:after {
@@ -1262,8 +1264,8 @@ div.consultation-block__inputs {
 }
 .title-min {
 	font-size: 18px;
-font-weight: 600;
-line-height: 160%;
+	font-weight: 600;
+	line-height: 160%;
 }
 .about-info {
 	padding: 48px 53px;
@@ -1280,7 +1282,7 @@ line-height: 160%;
 }
 .title-middle span {
 	font-weight: 700;
-color: #EA6229;
+	color: #EA6229;
 }
 .about-info .title-middle {
 	padding-bottom: 20px;
@@ -1289,6 +1291,7 @@ color: #EA6229;
 	max-width: 540px;
 }
 .page-about .title-min {
+	max-width: 595px;
 	padding-bottom: 35px;
 }
 .page-about .title-section {
@@ -1334,4 +1337,80 @@ color: #EA6229;
 	padding: 40px 57px;
 	padding-bottom: 75px;
 	background: #F7F7F7;
+}
+.slider-sertificats .slick-slide {
+	padding: 0 12px;
+}
+.slider-sertificats {
+	margin: 0 -12px;
+}
+.item-sertificat {
+	height: 402px;
+	padding: 12px;
+	background: #F5F5F5;
+	position: relative;
+	display: block;
+	z-index: 1;
+}
+.item-sertificat::before {
+	position: absolute;
+	display: block;
+	content: " ";
+	left: 0px;
+	top: 0px;
+	border-top: 83px solid #EA6229; 
+	border-right: 46px solid transparent;
+	transition: all 0.3s;
+	z-index: -1;
+}
+.item-sertificat::after {
+	position: absolute;
+	display: block;
+	content: " ";
+	right: 0px;
+	bottom: 0px;
+	border-bottom: 83px solid #4D5252; 
+	border-left: 46px solid transparent;
+	transition: all 0.3s;
+	z-index: -1;
+}
+.item-sertificat img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	font-family: 'object-fit: cover;';
+}
+.slider-sertificats .slick-prev {
+	left: -50px;
+}
+.slider-sertificats .slick-next {
+	right: -50px;
+}
+.title-section.title-section_sertificats {
+	padding-top: 40px;
+	padding-bottom: 28px;
+}
+.form-special {
+	padding: 73px 90px;
+	color: #fff;
+	background-image: url(../img/bg_form_special.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.form-special .title-section {
+	max-width: 487px;
+	padding-bottom: 43px;
+}
+.form-special .title-small {
+	max-width: 388px;
+	padding-bottom: 20px;
+}
+.form-special .btn-main {
+	margin-bottom: 20px;
+	padding: 0 55px;
+	margin-left: 40px;
+}
+.page-about .form-special {
+	margin-top: 53px;
 }
