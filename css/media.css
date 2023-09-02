@@ -1266,6 +1266,9 @@
 	#map-contacts {
 		height: 350px;
 	}
+	.page-card {
+		padding-bottom: 34px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -1475,6 +1478,39 @@
 	}
 	.page-contacts .title-section {
 		padding-bottom: 17px;
+	}
+	.item-catalog__image {
+		height: 180px;
+	}
+	.item-catalog .articul {
+		font-size: 11px;
+		margin-bottom: 7px;
+	}
+	.item-catalog__content {
+		padding: 12px 5px;
+	}
+	.item-catalog .btn-main {
+		height: 30px;
+		padding: 0 13px;
+		font-size: 13px;
+		border-radius: 5px;
+	}
+	.item-catalog__bottom {
+		padding-top: 14px;
+	}
+	.item-catalog__title {
+		font-size: 13px;
+		line-height: 140%;
+	}
+	.row_catalog > div {
+		margin-bottom: 10px;
+	}
+	.slider-catalog .slick-slide {
+		padding: 10px 5px;
+	}
+	.slider-catalog {
+		margin: 0 -5px;
+		margin-top: -5px;
 	}
 }
 
